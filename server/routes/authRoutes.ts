@@ -60,7 +60,7 @@ router.post("/login",async(req,res)=>{
             {expiresIn: "1h"}
         );
 
-        // res is by default set to 200
+        // res is by default set to 200 
         res.json({message: "Login succesfull", token});
 
     }catch(err){
